@@ -16,6 +16,11 @@ function BookPage() {
                 <label>My Rating</label>
                 <Ratings />
             </div>
+            <div>
+                <input type="button" value="Delete" />
+                <input type="button" value="Edit" />
+            </div>
+            <p>Back to list</p>
         </div>
     )
 }
