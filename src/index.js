@@ -23,9 +23,9 @@ export default function App() {
           <Route index element={<HomePage />} />
           <Route path="signIn" element={<SignInPage />} />
           <Route path="signUp" element={<SignUpPage />} />
+          <Route path="addNewBook" element={<AddNewBookPage />} />
           <Route path="book" element={<BooksPage />} >
             <Route path=":bookId" element={<BookPage />} />
-            <Route path="new" element={<AddNewBookPage />} />
             <Route path="edit" element={<EditBookPage />} />
           </Route>
           <Route path="about" element={<AboutPage />} />

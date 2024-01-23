@@ -1,8 +1,11 @@
 import React from 'react'
+import AddNewBookForm from '../Components/AddNewBookForm'
 
 function AddNewBookPage() {
     return (
-        <div>AddNewBookPage</div>
+        <div>
+            <AddNewBookForm />
+        </div>
     )
 }
 

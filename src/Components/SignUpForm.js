@@ -3,7 +3,7 @@ import React from 'react'
 function SignUpForm() {
     return (
         <form>
-            <p>Sign Up Form</p>
+            <p>Sign Up</p>
             <div>
                 <label>Email: </label>
                 <input type="email" name="email" id="email" placeholder='Email' />

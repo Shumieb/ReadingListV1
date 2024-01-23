@@ -3,7 +3,7 @@ import React from 'react'
 function SignInForm() {
     return (
         <form>
-            <p>Sign In Form</p>
+            <p>Sign In</p>
             <div>
                 <label>UserName: </label>
                 <input type="text" name="userName" id="userName" placeholder='UserName' />
