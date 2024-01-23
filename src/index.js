@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import HomePage from './Pages/HomePage';
 import LayoutPage from './Pages/LayoutPage';
 import NoPage from './Pages/NoPage';
@@ -11,6 +11,8 @@ import AddNewBookPage from './Pages/AddNewBookPage';
 import EditBookPage from './Pages/EditBookPage';
 import BooksPage from './Pages/BooksPage';
 import BookPage from './Pages/BookPage';
+import SignUpPage from './Pages/SignUpPage';
+import SignInPage from './Pages/SignInPage';
 
 
 export default function App() {
@@ -19,6 +21,8 @@ export default function App() {
       <Routes>
         <Route path="/" element={<LayoutPage />}>
           <Route index element={<HomePage />} />
+          <Route path="signIn" element={<SignInPage />} />
+          <Route path="signUp" element={<SignUpPage />} />
           <Route path="book" element={<BooksPage />} >
             <Route path=":bookId" element={<BookPage />} />
             <Route path="new" element={<AddNewBookPage />} />
