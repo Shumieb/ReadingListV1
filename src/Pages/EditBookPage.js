@@ -1,8 +1,11 @@
 import React from 'react'
+import EditBookForm from '../Components/EditBookForm'
 
 function EditBookPage() {
     return (
-        <div>EditBookPage</div>
+        <div>
+            <EditBookForm />
+        </div>
     )
 }
 
